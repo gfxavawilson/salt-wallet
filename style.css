@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151515;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.section{
+    padding: 50px 0;
+}
+
+.container{
+    max-width: 1700px;
+    width: 80%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list a{
+    transition: all .5s ease-in-out;
+}
+.nav-list a:hover{
+    color: #0094FF;
+}
+header{
+    padding: 50px 0;
+}
+
+.section1-heading{
+    color: #0094FF;
+    font-size: 80px;
+    text-align: center;
+}
+.section1-para{
+    text-align: center;
+    /* max-width: 440px; */
+    margin: 80px auto 0 auto;
+
+}
+.para-row{
+    justify-content: center;
+}
+.section1-btns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.section1{
+    background-image: url('images/hero\ scene\ img.png');
+    background-position: bottom center;
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+
+
+.section2-heading{
+    color: #0094FF;
+    font-size: 70px;
+    
+}
+.section2-para{
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+
+
+.section3-heading{
+    color: #0094FF;
+    font-size:70px ;
+}
+.section3-para{
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+
+
+.section4-heading{
+    color: #0094FF;
+    font-size:70px ;
+}
+.section4-para{
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+
+
+.section5-heading{
+    color: #0094FF;
+    font-size:70px ;
+}
+.center-logo{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.section5 .row{
+    border: 2px solid #0094FF;
+    border-radius: 44px;
+    padding: 0 60px;
+}
+
+
+
+
+.section6{
+    padding: 50px 0;
+}
+
+.section6-heading1{
+    text-align: center;
+
+}
+.section6-heading{
+    text-align: center;
+    color: #0094FF;
+    font-size: 70px;
+    line-height: 60px;
+}
+.section6-para{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+   margin-top: 50px;
+}
+
+.section7{
+    padding: 70px 0;
+}
+.row .align-items-center .on-mobile{
+    justify-content: center;
+}
+.section7-heading{
+    color: #0094FF;
+    font-size: 70px;
+    line-height: 60px;
+}
+.pb-mobile{
+    font-weight: 300;
+    font-size: 20px;
+   margin-top: 20px;
+}
+.row .on-mobile ul li{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.section8{
+    padding: 70px 0;
+}
+.img-box .ab img{
+    width: 100%;
+    height: 100%;
+}
+
+.section8-heading1{
+    margin-bottom: 30px;
+    color: #0094FF;
+    font-size: 50px;
+}
+.section8-heading{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.section8-para{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.section9-heading{
+    color: #0094FF;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.section9-para{
+    font-size: 20px;
+    font-weight: 200;
+}
+.pb-mobile{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.section10-heading{
+    color: #0094FF;
+    margin-bottom: 30px;
+    font-size: 60px;
+    /* margin-left: 500px; */
+    text-align: center;
+}
+.section10-heading1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.section10-para{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+.app-btns {
+    margin: 20px 0;
+    text-align: center;
+    gap: 15px;
+}
+
+.row .app{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.heading1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 150%;
+}
+.app-2 {
+    padding-bottom: 30px;
+    padding:20px 0;
+    max-width: 100%;
+}
+
+.heading1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 150%;
+}
+.section10-para{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.app-2 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    background: #0094FF;
+    border-radius: 8px;
+    padding: 17px 50px;
+    margin-top: 200px;
+}
+
+.section11{
+    padding: 70px 0;
+}
+
+
+
+.section11-heading{
+    text-align: center;
+    /* align-items: center; */
+    /* margin-bottom: 20px; */
+    /* padding-left: 500px; */
+    font-size: 45px;
+     color: #0094FF;
+}
+
+.faq-list .accordion-button{
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+.faq-list .accordion-item{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #0094FF;
+}
+.faq-list .accordion-button::after{
+    content: '+';
+    background-image: none;
+}
+.faq-list .accordion-button:not(.collapsed)::after{
+    content: '-';
+}
+.faq-list .accordion-item:last-of-type{
+    border-radius: 0;
+}
+
+.section12{
+    padding: 40px 0;
+}
+
+.section12-heading{
+    text-align: center;
+    color: #0094FF;
+    font-size: 60px;
+    
+}
+.section12-heading2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.links-wraper{
+    justify-content: space-between;
+    display: flex;
+}
+.heading{
+    color: #0094FF;
+    font-size: 30px;
+}
+.heading1{
+    color: #0094FF;
+    font-size: 30px;
+}
+.heading2{
+    color: #0094FF;
+    font-size: 30px;
+}
+.heading3{
+    color: #0094FF;
+    font-size: 30px;
+}
+
+.bottom-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy-right{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.faq-list .accordion-button{
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+.faq-list .accordion-item{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #0094FF;
+}
+.faq-list .accordion-button::after{
+    content: '+';
+    background-image: none;
+}
+.faq-list .accordion-button:not(.collapsed)::after{
+    content: '-';
+}
+.faq-list .accordion-item:last-of-type{
+    border-radius: 0;
+}
